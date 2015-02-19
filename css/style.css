@@ -288,19 +288,27 @@ body {
   width: 637px;
   height: 40px;
   border: none;
-  border-top: 1px solid #898989;
+  border-bottom: 1px solid #898989;
   background: #0b0b0b;
   margin: 15px;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 16px;
+  text-align: center;
+  outline: 0;
+}
+#email {
+  margin-bottom: 50px;
 }
 .contact-form textarea {
   background: #0b0b0b;
   width: 917px;
   height: 92px;
   color: #ffffff;
-  font-size: 32px;
+  font-size: 16px;
   margin: 15px;
+  outline: 0;
+  border-left: 0;
+  border-right: 0;
 }
 .contact-form input[type=submit] {
   font-size: 14px;
